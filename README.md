@@ -2,6 +2,8 @@
 
 This repository contains a trained part-of-speech tagger for Dutch, as well as the code used to train it.
 
+Requirements: NLTK version 3.1
+
 **Key facts**:
 
 * The tagger was trained on the NLCOW14 corpus (which in turn was tagged using TreeTagger).
