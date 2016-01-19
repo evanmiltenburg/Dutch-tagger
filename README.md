@@ -1,6 +1,7 @@
 # Dutch tagger
 
 This repository contains a trained part-of-speech tagger for Dutch, as well as the code used to train it.
+(The file `cowparser.py` comes from [this](https://github.com/evanmiltenburg/cowparser_dutch) repository.)
 
 Requirements: NLTK version 3.1
 
