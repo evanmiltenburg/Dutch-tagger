@@ -8,7 +8,7 @@ Requirements: NLTK version 3.1
 
 * The tagger was trained on the NLCOW14 corpus (which in turn was tagged using TreeTagger).
 * The accuracy is about 97% on held-out data from the same corpus. 
-* The small model is trained on 2 million words, while the larger model is trained on 10 million words.
+* The small model is trained on 2 million tokens, while the larger model is trained on 10 million tokens.
 * The accuracy of the larger model is slightly better than the smaller model, but the larger model is over three times as large.
 
 ### How to use the tagger.
