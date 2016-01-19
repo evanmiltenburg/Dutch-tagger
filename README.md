@@ -8,6 +8,7 @@ Requirements: NLTK version 3.1
 
 * The tagger was trained on the NLCOW14 corpus (which in turn was tagged using TreeTagger).
 * The accuracy is about 97% on held-out data from the same corpus. 
+* The small model is trained on 2 million words, while the larger model is trained on 10 million words.
 * The accuracy of the larger model is slightly better than the smaller model, but the larger model is over three times as large.
 
 ### How to use the tagger.
@@ -32,7 +33,7 @@ Result:
 If the text is not tokenized yet, you can use the built-in tokenizer from the NLTK
 (be sure to download the NLTK data):
 
-```
+```python
 import nltk.data
 from nltk.tokenize import word_tokenize
 
