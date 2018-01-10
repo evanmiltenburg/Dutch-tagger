@@ -1,5 +1,7 @@
 # Dutch tagger
 
+**Don't use this tagger for actual research or production! Use SpaCy instead (faster, more reliable). I'm leaving this up only as educational material.**
+
 This repository contains a trained part-of-speech tagger for Dutch, as well as the code used to train it.
 (The file `cowparser.py` comes from [this](https://github.com/evanmiltenburg/cowparser_dutch) repository.)
 Don't use the tagger in a production environment, unless you train it yourself using some other data. This code just shows you how the NLTK tagger works. I recommend [Treetagger](https://github.com/miotto/treetagger-python/), because it's less of a hassle to install than the alternatives.
