@@ -4,7 +4,7 @@
 
 This repository contains a trained part-of-speech tagger for Dutch, as well as the code used to train it.
 (The file `cowparser.py` comes from [this](https://github.com/evanmiltenburg/cowparser_dutch) repository.)
-Don't use the tagger in a production environment, unless you train it yourself using some other data. This code just shows you how the NLTK tagger works. I recommend [Treetagger](https://github.com/miotto/treetagger-python/), because it's less of a hassle to install than the alternatives.
+Don't use the tagger in a production environment, unless you train it yourself using some other data. This code just shows you how the NLTK tagger works. I recommend [Treetagger](https://github.com/miotto/treetagger-python/), [Frog](https://github.com/fbkarsdorp/homebrew-lamachine), or [SpaCy](http://spacy.io).
 
 Requirements: 
 
